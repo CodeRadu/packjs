@@ -10,7 +10,7 @@
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
-    "dev": "concurrently \" webpack --mode development --watch\" \" nodemon dist/bundle.js --quiet\"",
+    "dev": "concurrently \" webpack --mode development --watch\" \" nodemon --watch dist/bundle.js --quiet\"",
     "build": "webpack --mode production"
   },
   "dependencies": {}
